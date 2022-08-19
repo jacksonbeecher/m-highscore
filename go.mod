@@ -2,7 +2,10 @@ module github.com/jacksonbeecher/m-highscore
 
 go 1.18
 
-require google.golang.org/grpc v1.48.0
+require (
+	github.com/pkg/errors v0.9.1
+	google.golang.org/grpc v1.48.0
+)
 
 require (
 	github.com/mattn/go-colorable v0.1.12 // indirect
